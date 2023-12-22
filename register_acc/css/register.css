@@ -1,0 +1,88 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(images/Broward-College-Health-Sciences-Center.jpg);
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.container {
+    background: #333; /* Darker background color */
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+    opacity: 1;
+}
+
+.header {
+    background: #2a78d6; /* Darker blue */
+    color: white; /* Slightly darker text color */
+    padding: 20px;
+}
+
+.header h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.form-container {
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: white; /* Slightly darker text color */
+    text-align: left;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 1px solid #555; /* Darker border color */
+    border-radius: 4px;
+    font-size: 16px;
+    color: white; /* Slightly darker text color */
+    background: #444; /* Darker background color */
+}
+
+button {
+    background-color: #2a78d6; /* Darker blue */
+    color: #fff;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #1e5a9c; /* Darker hover color */
+}
+
+.footer {
+    background: #444; /* Darker background color */
+    padding: 20px;
+    color: grey;
+}
+
+.footer p {
+    margin: 0;
+    color: white; /* Slightly darker text color */
+}
